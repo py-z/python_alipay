@@ -3,7 +3,7 @@
 
 __author__ = 'py-z'
 
-import web
+import web, re
 from alipay import Alipay
 urls = (
     '/pay_url', 'pay_url', # 支付宝跳转连接
